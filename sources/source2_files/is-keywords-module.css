@@ -1,0 +1,95 @@
+.is-keywords-module {
+  float: none;
+  border: none;
+  width: 100%;
+  clear: both;
+  display: block;
+  margin: 5px 0; }
+  .is-keywords-module .is-keywords-module-container {
+    width: 100%;
+    display: block;
+    color: inherit;
+    padding: 15px;
+    margin: 0 auto; }
+    .is-keywords-module .is-keywords-module-container .is-keywords-module-heading {
+      line-height: 30px;
+      padding: 0 0 10px;
+      position: relative; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-heading .is-keywords-module-title {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700; }
+    .is-keywords-module .is-keywords-module-container .is-keywords-module-body {
+      margin: 0;
+      padding: 0 70px; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-body .is-keywords-module-slide {
+        margin: 0;
+        padding: 0; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-body .is-keywords-module-element {
+        display: inline-block;
+        /*margin-bottom: 5px;*/
+        width: 25%; }
+        .is-keywords-module .is-keywords-module-container .is-keywords-module-body .is-keywords-module-element .is-keyword-element {
+          display: block;
+          color: inherit;
+          /*word-wrap: break-word;*/
+          margin-bottom: 5px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+          .is-keywords-module .is-keywords-module-container .is-keywords-module-body .is-keywords-module-element .is-keyword-element a {
+            color: inherit; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-body.is-keywords-module-col-2 .is-keywords-module-element {
+        width: 50%; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-body.is-keywords-module-col-3 .is-keywords-module-element {
+        width: 33.33%; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-body.is-keywords-module-col-4 .is-keywords-module-element {
+        width: 25%; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-body.is-keywords-module-col-5 .is-keywords-module-element {
+        width: 20%; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-body.is-keywords-module-col-6 .is-keywords-module-element {
+        width: 16.66%; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-body.is-keywords-module-col-7 .is-keywords-module-element {
+        width: 14.28%; }
+      .is-keywords-module .is-keywords-module-container .is-keywords-module-body.is-keywords-module-col-8 .is-keywords-module-element {
+        width: 12.5%; }
+    .is-keywords-module .is-keywords-module-container .is-wrapper-outer {
+      overflow: hidden;
+      position: relative;
+      width: 100%; }
+    .is-keywords-module .is-keywords-module-container .is-button-prev,
+    .is-keywords-module .is-keywords-module-container .is-button-next {
+      position: absolute;
+      top: 50%;
+      width: 26px;
+      height: 26px;
+      margin-top: -13px;
+      z-index: 10;
+      cursor: pointer; }
+      .is-keywords-module .is-keywords-module-container .is-button-prev.swiper-button-disabled,
+      .is-keywords-module .is-keywords-module-container .is-button-next.swiper-button-disabled {
+        opacity: 0.35;
+        cursor: auto;
+        pointer-events: none; }
+      .is-keywords-module .is-keywords-module-container .is-button-prev i,
+      .is-keywords-module .is-keywords-module-container .is-button-next i {
+        font-size: 24px;
+        color: #666; }
+    .is-keywords-module .is-keywords-module-container .is-button-prev {
+      left: 10px;
+      right: auto;
+      text-align: right; }
+    .is-keywords-module .is-keywords-module-container .is-button-next {
+      right: 10px;
+      left: auto;
+      text-align: left; }
+  @media (min-width: 768px) {
+    .is-keywords-module .is-keywords-module-container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .is-keywords-module .is-keywords-module-container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .is-keywords-module .is-keywords-module-container {
+      width: 1170px; } }
+

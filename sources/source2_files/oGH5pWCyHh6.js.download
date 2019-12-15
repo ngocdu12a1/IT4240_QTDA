@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Q\/YBp"]); }
+
+__d("FbtErrorListenerWWW",["FBLogger","killswitch"],(function(a,b,c,d,e,f){__p&&__p();a=function(){"use strict";__p&&__p();function a(a){this.$1=a.hash,this.$2=a.translation}var c=a.prototype;c.onStringSerializationError=function(a){var c="Context not logged.";if(!b("killswitch")("JS_RELIABILITY_FBT_LOGGING"))try{var d=JSON.stringify(a);d!=null&&(c=d.substr(0,250))}catch(a){c=a.message}d=(a==null?void 0:(d=a.constructor)==null?void 0:d.name)||"";b("FBLogger")("fbt").blameToPreviousDirectory().blameToPreviousDirectory().mustfix('Converting to a string will drop content data. Hash="%s" Translation="%s" Content="%s" (type=%s,%s)',this.$2,this.$1,c,typeof a,d)};return a}();e.exports=a}),null);

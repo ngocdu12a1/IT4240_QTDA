@@ -1,0 +1,14 @@
+window.mcwidget = {"appId":"532160876956612","pageId":"249564548711055","fb_page_id":"249564548711055","widget_phone":null,"widgets":[{"widget_id":6568227,"page_id":"249564548711055","widget_type":"customer_chat","status":"active","name":"website mới","data":[],"chat_ref":"w6568227"},{"widget_id":6568214,"page_id":"249564548711055","widget_type":"landing","status":"active","name":"Example Landing","data":{"feed_comment_settings":[],"main":{"image":{"type":"image","caid":31632987,"img_big":"https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/fb249564548711055/ca/big_cb1b23cf885ec003ce066b38d1df28e2.jpg","img_small":"https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/fb249564548711055/ca/small_cb1b23cf885ec003ce066b38d1df28e2.jpg","title":"mã giảm giá facebook.jpg","sign":"249564548711055:31632987:5a92771a8b1c389c12e1726da5f27c6913fc5189"},"imagePlacement":"ad","title":"TẶNG MÃ GIẢM GIÁ&nbsp;","desc":"Quý khách nhập đúng mã giảm giá để được giảm giá nhé LH 09712125005","colors":{"background":"#FFFFFF","backgroundCheckbox":"#FFFFFF","headline":"#E53935","buttonBackground":"#0084ff","buttonText":"#FFFFFF","description":"#311B92"}}}}],"widgetLocale":"vi_VN","defaultSize":0,"fbSDKVersion":"v3.1"};
+
+
+(function(d, s, id){
+    var host = 'manychat.com/116966';
+
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) { return; }
+    js = d.createElement(s); js.id = id;
+    js.src = '//' + host + '/assets/js/widget.js?' + (Math.round(+new Date/1000/1800));
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'mcwidget-core'));
+
+        

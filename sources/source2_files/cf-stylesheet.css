@@ -1,0 +1,50 @@
+#collection-filters-container .cf-select, #collection-filters-container #sort-by {
+    display: inline-block;
+    width: 100%;
+    float: none;
+}
+
+#collection-filters-container {
+    text-align: left;
+    margin: 10px 0;
+}
+
+    #collection-filters-container .cf-title {
+        color: #c11;
+        display: block;
+        font-weight: bold;
+        margin: 16px 5px 2px 0;
+    }
+
+    #collection-filters-container label {
+        display: block;
+        margin: 0 6px 6px 0;
+        cursor: pointer;
+        font-weight: normal;
+    }
+
+        #collection-filters-container label span {
+            font-weight: normal;
+            word-wrap: break-word;
+        }
+
+    #collection-filters-container .cf-checkbox:checked + span {
+        font-weight: bold;
+    }
+
+    #collection-filters-container label a {
+        color: #23527e;
+    }
+
+@media (max-width: 640px) {
+    #collection-filters-container .cf-title {
+        font-weight: bold;
+        margin: 2px 5px 0 0;
+    }
+
+    #collection-filters-container .cf-select, #collection-filters-container #sort-by {
+        display: block;
+        width: 100%;
+        max-width: none;
+    }
+}

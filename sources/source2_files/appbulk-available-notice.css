@@ -1,0 +1,146 @@
+﻿.ab-clearfix:after {
+  clear: both; }
+
+.ab-clearfix:before, .ab-clearfix:after {
+  display: table;
+  content: " "; }
+
+.ab-hide {
+  display: none !important; }
+
+.ab-available-notice-button {
+  display: inline-block; }
+  .ab-available-notice-button .ab-notice-btn {
+    font-weight: 700;
+    font-size: 16px;
+    height: 42px;
+    padding: 9px 28px;
+    border-style: solid;
+    border-width: 3px; }
+
+/* */
+.appbulk-availablenotice-popup-overlay {
+  width: auto;
+  height: auto;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background: rgba(201, 201, 201, 0.6); }
+
+.appbulk-availablenotice-popup-wrap {
+  height: auto;
+  width: auto;
+  font-size: 13px;
+  opacity: 1;
+  overflow: visible;
+  z-index: 10000;
+  position: absolute;
+  background: #f9f9f9;
+  box-shadow: 3px 3px 3px #ccc; }
+
+.ab-popup-left {
+  float: left;
+  padding: 20px;
+  max-width: 350px; }
+
+.appbulk-availablenotice-popup-wrap .title {
+  color: #0095d6;
+  padding: 0px 0 15px 0;
+  font-weight: bold; }
+
+.appbulk-availablenotice-popup-wrap .price-popup-product {
+  font-weight: bold;
+  padding: 10px 0 0 0; }
+
+.appbulk-availablenotice-popup-wrap .price-popup {
+  color: #ff4e8f; }
+
+.ab-popup-right {
+  float: left;
+  padding: 20px 30px 20px 10px;
+  min-width: 350px;
+  max-width: 350px; }
+
+.appbulk-availablenotice-popup-wrap .ab-popup-right input {
+  width: 100%; }
+
+.appbulk-availablenotice-popup-wrap .ab-popup-right input::-webkit-input-placeholder {
+  font-size: 13px; }
+
+.appbulk-availablenotice-popup-wrap .ab-popup-right input:-ms-input-placeholder {
+  font-size: 13px; }
+
+.appbulk-availablenotice-popup-wrap .ab-popup-right input:-moz-placeholder {
+  font-size: 13px; }
+
+.appbulk-availablenotice-popup-wrap .ab-popup-right input::-moz-placeholder {
+  font-size: 13px; }
+
+.appbulk-availablenotice-popup-wrap .ab-popup-right textarea {
+  font-size: 13px; }
+
+.appbulk-availablenotice-popup-wrap .phone-customer {
+  color: #ff4ea9; }
+
+.appbulk-availablenotice-popup-wrap button.btn-appbulk-notice-sendmail {
+  color: #fff;
+  background: #f59123;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 10px;
+  border: 1px solid #f59123;
+  width: 100%; }
+
+.appbulk-availablenotice-popup-wrap button.btn-appbulk-notice-sendmail .note {
+  font-size: 10px; }
+
+.appbulk-availablenotice-popup-overlay .popup_close {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 10000;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAACYCAMAAACoAftQAAAAvVBMVEUAAAAAAAAAAAAODg4AAAAAAAAAAADNzc0BAQHZ2dkDAwMHBwcAAADf398CAgI/Pz8BAQEAAACCgoIcHBzl5eUAAAC/v7/x8fEGBgZnZ2cAAADs7OwGBgb4+Pg/Pz/Jycmenp5nZ2f39/eDg4MAAADQ0ND4+Piurq7a2tr8/Pzs7OwAAAD5+fn9/f3e3t4AAAD///9OTk7BwcE1NTWsrKyNjY2cnJx6enpdXV1oaGgsLCy6uroiIiLOzs5BQUFt3PCNAAAAL3RSTlMAAQMIDRIZHSMnLTpESFNVXWlpbG15en+HiZCWoaGssrO2vsDFydPU3uL4+fr9/Ywv6xsAAAQVSURBVHhe7JZbc6JMGIQXAUOQEMi3uMYkrmopZgqs5ujZ//+zvpdNzMsMlli1N3uRvtCbpzo9I+nmhyqN9OO6GNQ6Ha1SG0mcrhskXe90rvKE6kbX7r9MF4vp2887nfBrqPW0xJemD4w32e7jHIj2602SbNZ7Qfgd0zJLtgKi2B0+tSsE3h8u0RX7HGGfHWrK9oiIbrK69SiQHxTliO5VWtP0rrNEemhoj6muaYqx2XuGyJrwbgUKohhb3hIFM6wCC7Zm4+M5Zs5fpKNiTYndEOUHDFRYCeADLvGiy7DtL7E5/12gJPacalPlqEc2eoFAdmCa2UOGyOhoUuQgwo7PxCwJMGXYGcQMlyCVX3DchCkGs3V6h0iFgyUSZsuS6QQLGaYDhueUHxhf3RpzOqB8dRMcz84lf5FS9A1Ngi2PQm8PF7RBZOnEyqFnSC/BKX6bHQmucpB13mRzCJtTsPUowlpl14if2JifUXcwgeqdA2OLn1C+PdsbzCKkW0a3KeKxbbAxF4FJ9EgAaXGqyFORAuLZNrkMZNoNKnNS9PE5dpltFofjB4PJXIAk5rP/HMu4Ukmm7XjEkwLfc2yT66tJk7lp2T2H1LMtk2wVVsWpcE0SlW4DbeLE/xG3eRvfQv7Fptw4KvpDNRKLt1/3rZty/xbjrPef1+5D018ITYttkiTrfAUsrmzK3RTIT/woHxH3DaZl9h2rRH2aX0ydaYb1BVK1zNdA32RvNn7DkVmmoyeVJvYBMcdl5Vg2/lW0zpSbUNIKT12KLV8wVjsmNvGW63feU3qj86veGQmAA1e5qzbStNZdmVTlRzzbSjG+4+t4u1iqjxxjR6pczaiNBCCVXoGx25X7mUNGgJBHM/QsXWp+dk4U5xJjX4EXSM7ACcCxnnnm2zI8rxVoFgMr/lUwUpyNPvYVx/eRfaUSQzkzLWxEOVhiwynCAd2GvCm/2bquBPEo+LxnDv0YXdyfFOHQP+8EV/kY0enSorxyitoLxxwiabDRqDImWF2JJVBIeVNEk2HgsDGn7vkhcPy67lMOiBGF4AGS3tX8yYqAfb5eF/kRiMPX4cDjEDLd8wezJT4lwtHrMHBtbg6V9oLhYDYLw3A2eSVbn0elSdMCecFg+Ee0Kq7dlftLXSCrRxNE8lzH7hp0Nu3qpHQty7Ztq2sabHvtpb/SLauisVTye1O+N2Ubbxhu2xSAq6x1UwoAWfum8P3Gu5ZNYaUA2jaFJYCofVPYOWnZFD4TcLpxU1ZAnN24KRnfxQ2bshEE/Vub8r0p35vi/t9eHRoBDMNQDJUvMLkOkDMM+8D7b9cR+kOKLPy4juojnQeAkWWVAyLLLINVdovj44N8LOqi/3Djxo0bN5ZvdbWJuwHhrw2ILYdqBwDT2fEEXtrZFmVcCWLiAAAAAElFTkSuQmCC"); }
+
+.appbulk-availablenotice-popup-wrap .result {
+  padding: 40px; }
+
+.hidden-availablenotice {
+  display: none; }
+
+@media (min-width: 420px) and (max-width: 768px) {
+  .appbulk-availablenotice-popup-wrap .title {
+    padding-bottom: 10px; }
+  .ab-popup-left {
+    float: none;
+    padding: 15px; }
+  .ab-popup-left img {
+    display: none; }
+  .ab-popup-right {
+    min-width: 300px;
+    max-width: 300px;
+    padding: 0 15px 15px 15px; }
+  .appbulk-availablenotice-popup-wrap .price-popup-product {
+    padding-top: 0; } }
+
+@media (max-width: 419px) {
+  .appbulk-availablenotice-popup-wrap .title {
+    padding-bottom: 0; }
+  .ab-popup-left {
+    float: none;
+    padding: 10px; }
+  .ab-popup-left img {
+    display: none; }
+  .ab-popup-right {
+    min-width: 280px;
+    max-width: 280px;
+    padding: 0 10px 10px 10px; }
+  .appbulk-availablenotice-popup-wrap .result {
+    padding: 25px; } }
+

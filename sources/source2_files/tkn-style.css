@@ -1,0 +1,293 @@
+#ui-widget-search {
+    position: absolute;
+    z-index: 2147483647;
+    width: 500px;
+    top: -5px;
+    left: 0;
+}
+
+#icon_loading i {
+    font-size: 15px !important;
+}
+
+#ui-widget-search .ui-autocomplete {
+    background: #ffffff none repeat scroll 0 0 !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #666;
+    cursor: default;
+    font-size: 14px;
+    height: auto !important;
+    line-height: normal;
+    max-height: none;
+    overflow: hidden;
+    padding: 0 !important;
+    position: relative;
+    transition: none 0s ease 0s;
+}
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item:hover {
+        background: transparent linear-gradient(to bottom, #648ffa 0, #0d67f7 100%) repeat scroll 0 0;
+        color: #ffffff !important;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item #ui-active-menuitem {
+        background-color: #eaf2f9;
+        font-weight: bold;
+        margin: 0 !important;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .ui-corner-all {
+        background-image: none;
+        border-radius: 0;
+        border-width: 0;
+        color: inherit !important;
+        font-family: Open Sans, sans-serif;
+        font-size: inherit;
+        font-style: normal;
+        font-weight: bold;
+        margin: 0 !important;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+        text-transform: none;
+        transition-property: none;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .ui-state-focus {
+        background: transparent linear-gradient(to bottom, #648ffa 0, #0d67f7 100%) repeat scroll 0 0;
+        color: #ffffff !important;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_icon {
+        background-color: inherit;
+        background-image: inherit;
+        background-position: 3px 50%;
+        background-repeat: no-repeat;
+        color: inherit;
+        font-size: inherit;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        overflow: hidden;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 4px;
+        text-overflow: ellipsis;
+        transition-property: none;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_icon_mobile {
+        background-position: 3px 10px;
+        background-repeat: no-repeat;
+        border-bottom: 1px solid #f8f8f8;
+        color: #666;
+        font-size: inherit;
+        font-weight: normal;
+        line-height: 2em;
+        padding-bottom: 0;
+        padding-left: 18px !important;
+        padding-top: 0;
+        text-overflow: ellipsis;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_img_container {
+        background: transparent no-repeat scroll center 50%;
+        display: inline-block;
+        float: left;
+        margin: 0;
+        /*max-height: 60px;*/
+        padding: 0;
+        text-align: center;
+        /*width: 60px;*/
+    }
+
+        #ui-widget-search .ui-autocomplete .ui-menu-item .as_img_container img.product-thumb {
+            border-radius: 3px;
+            margin: 0 auto;
+            width: 50px;
+            max-height: 50px;
+        }
+
+        #ui-widget-search .ui-autocomplete .ui-menu-item .as_img_container img.product-image-is-blank {
+            background: #d3dbe2 none repeat scroll 0 0;
+        }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_product_section {
+        border-radius: initial;
+        font-family: Open Sans, sans-serif;
+        font-size: inherit;
+        font-weight: bold !important;
+        line-height: normal;
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 3px;
+        padding-top: 0;
+        text-align: left;
+        text-overflow: ellipsis;
+        transition-property: none;
+        vertical-align: middle;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_product_section_mobile {
+        font-family: Open Sans, sans-serif;
+        font-size: inherit;
+        font-weight: normal;
+        overflow: hidden;
+        padding-top: 0;
+        text-align: left;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_product_name {
+        color: inherit;
+        font-size: inherit;
+        text-decoration: none !important;
+        transition-property: none;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_product_sku {
+        color: inherit;
+        display: none;
+        font-size: inherit;
+        font-weight: normal;
+        overflow: hidden;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        transition-property: none;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_product_sku_title {
+        display: none;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_product_desc {
+        color: inherit;
+        font-size: inherit;
+        font-weight: normal;
+        overflow: hidden;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        transition-property: none;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_price {
+        color: inherit !important;
+        font-size: inherit;
+        font-weight: bold;
+        margin: 0 !important;
+        transition-property: none;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_price_from {
+        color: inherit !important;
+        font-size: inherit;
+        font-weight: normal;
+        margin: 0 !important;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_price_compare_at {
+        color: inherit !important;
+        font-size: inherit;
+        font-weight: normal;
+        margin: 0 !important;
+        opacity: 0.4;
+        text-decoration: line-through;
+    }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item .as_magento_price_mobile {
+        display: none;
+        font-weight: normal;
+    }
+
+    #ui-widget-search .ui-autocomplete #acp_footer_acp {
+        background-image: none;
+        list-style: none;
+        float: none !important;
+        font-size: inherit;
+        color: #777;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+        #ui-widget-search .ui-autocomplete #acp_footer_acp div {
+            border-radius: initial;
+            background-color: #f8f8f8;
+            color: #111;
+            width: 100%;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            text-align: center;
+        }
+
+    #ui-widget-search .ui-autocomplete .ui-menu-item::before {
+        content: inherit;
+    }
+
+    #ui-widget-search .ui-autocomplete .acp_footer_css {
+        color: inherit;
+        font-family: Open Sans, sans-serif;
+        font-size: inherit;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+#ui-widget-search ul#sli_autocomplete {
+    display: none !important;
+}
+
+#ui-widget-search ul.ui-autocomplete .ui-menu-item {
+    background-attachment: inherit;
+    background-clip: inherit;
+    background-color: inherit;
+    background-image: none;
+    background-origin: inherit;
+    background-position: inherit;
+    background-repeat: inherit;
+    background-size: inherit;
+    border: 0 none;
+    color: #333333 !important;
+    font-size: inherit;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 !important;
+    /*text-align: left;*/
+    margin-bottom: 5px;
+}
+
+#ui-widget-search ul .ui-state-focus:hover {
+    background: inherit !important;
+}
+
+#ui-widget-search .isp_section_header {
+    background: #eaeaea none repeat scroll 0 0;
+    border: 0 none;
+    color: #666;
+    cursor: text;
+    font-size: inherit;
+    font-weight: bold;
+    list-style: outside none none;
+    margin: 0;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-top: 2px;
+    text-align: left;
+}
+
+#ui-widget-search .is-highlight {
+    color: red;
+}
+
+.ui-widget-search_mobile {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #ui-widget-search {
+        width: 100%;
+    }
+}
